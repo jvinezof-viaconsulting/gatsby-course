@@ -9,7 +9,7 @@
     "dotenv": "^8.5.1",
     "gatsby": "^3.4.1",
     "gatsby-image": "^3.6.0",
-    "gatsby-plugin-algolia-search": "^0.5.0",
+    "gatsby-plugin-algolia-search": "0.5.7",
     "gatsby-plugin-gatsby-cloud": "^2.4.1",
     "gatsby-plugin-image": "^1.4.0",
     "gatsby-plugin-manifest": "^3.4.0",
@@ -33,7 +33,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "react-instantsearch-dom": "^6.11.1",
+    "react-instantsearch-dom": "^6.10.3",
     "styled-components": "^5.3.0",
     "styled-icons": "^10.34.0",
     "styled-media-query": "^2.1.2"
