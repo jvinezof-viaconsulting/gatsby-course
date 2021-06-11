@@ -69,7 +69,7 @@ module.exports = {
         indexName: process.env.GATSBY_LGOLIA_INDEX_NAME,
         queries,
         chunkSize: 10000, // default: 1000
-        enablePartialUpdates: true,
+        enablePartialUpdates: false,
       },
     },
     {
