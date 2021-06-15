@@ -42,7 +42,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-relative-images",
+            resolve: "gatsby-remark-relative-images-v2",
             options: {
               name: "uploads",
             },
@@ -69,7 +69,7 @@ module.exports = {
         indexName: process.env.GATSBY_LGOLIA_INDEX_NAME,
         queries,
         chunkSize: 10000, // default: 1000
-        enablePartialUpdates: false,
+        enablePartialUpdates: true,
       },
     },
     {
@@ -89,5 +89,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`,
   ],
 }
